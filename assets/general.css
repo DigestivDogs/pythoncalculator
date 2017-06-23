@@ -5,9 +5,10 @@
 
 a {
 	text-decoration: none;
+	font-family: "My Custom Font";
 }
 
-.button {
+button {
 	background-color: #000000;
 	border: none;
 	color: white;
@@ -18,4 +19,22 @@ a {
 	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
+	font-family: "My Custom Font";
+}
+
+@font-face {
+	font-family: "My Custom Font";
+	src: url(https://digestivdogs.github.io/assets/contemporary.ttf) format("truetype");
+}
+
+p {
+	font-family: "My Custom Font";
+}
+
+h1 {
+	font-family: "My Custom Font";
+}
+
+h3 {
+	font-family: "My Custom Font";
 }
